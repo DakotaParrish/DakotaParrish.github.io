@@ -45,7 +45,7 @@
         console.log("About Us Page");
     }
 
-    function DisplayProjectPage()
+    function DisplayProjectsPage()
     {
         console.log("Our Projects Page");
     }
