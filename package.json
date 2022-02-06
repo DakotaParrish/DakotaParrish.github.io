@@ -1,9 +1,9 @@
 {
-  "name": "ice3",
+  "name": "ICE3",
   "version": "1.0.0",
-  "description": "Repo for WEBD6201-W2022 ICE 3",
+  "description": "Repo for WEBD6201-W2022 ICE-1",
   "main": "index.js",
-  "author": "Dakota Parrish",
+  "author": "Jordan Wriker",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",

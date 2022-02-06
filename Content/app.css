@@ -1,0 +1,53 @@
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    color: white;
+} 
+
+.about {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 250px;
+}
+
+.info {
+    color: white;
+}
+
+.project {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 750px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.table {
+    text-align: left;
+
+}
+
+.float-child-1 {
+    width:70%;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.float-child-2 {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    color: white;
+}  

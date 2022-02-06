@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./Content/app.css">
 </head>
-<body>
+<body background="/Images/background.jpg">
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,18 +20,18 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i> Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="services.html"><i class="fas fa-paper-plane"></i> Services</a>
+                  </li>
+                  <li id="btnAbout" class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
@@ -40,17 +40,18 @@
               </div>
             </div>
           </nav>
-    </nav>
+    </header>
 
     <main class="container">
-        <h1 class="mb=5"> Welcome to Our Site</h1>
-        <button id="AboutUsButton" class="btn btn-primary">Learn More About Us!</button>
+        <h1 class="title"></h1>
+        <!-- <button id="AboutUsButton" class="btn btn-primary">Learn More About Us!</button> -->
     </main>
+    <div id="break"></div>
+    
+    
     <!-- Scripting Section -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-    
     <script src="./Scripts/app.js"></script>
 </body>
 </html>
