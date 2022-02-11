@@ -1,53 +1,53 @@
-.float-container {
-    padding: 20px;
+.input-group-addon:first-child
+{
+    border-right: 0;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
+.input-group-addon
+{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
     text-align: center;
-    color: white;
-} 
-
-.about {
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    width: 250px;
+    border: 1px solid darkgrey;
+    border-radius: 4xpx; 
 }
 
-.info {
-    color: white;
+.input-group-addon .fa
+{
+    font-size: 18px;
 }
 
-.project {
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    width: 750px;
+.input-group .form-control
+{
+    position:relative;
+    z-index: 2;
+    float:left;
+    width: 100%;
+    margin-bottom: 0;
 }
 
-.title {
-    text-align: center;
-    color: white;
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.table {
-    text-align: left;
 
+
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+    border-radius: .3rem;
 }
 
-.float-child-1 {
-    width:70%;
-    float: left;
-    padding: 20px;
-    color: white;
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+    width: 100%;
 }
-
-.float-child-2 {
-    width: 30%;
-    float: left;
-    padding: 20px;
-    color: white;
-}  
